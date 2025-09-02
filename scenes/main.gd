@@ -8,3 +8,5 @@ func _ready() -> void:
 				await $Game.get_children()[i].queue_free()
 			$Game.add_child(scene.instantiate())
 	)
+	
+	
